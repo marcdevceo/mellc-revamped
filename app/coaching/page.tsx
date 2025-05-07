@@ -1,11 +1,12 @@
+import Button from "@/components/Button";
 import Card from "@/components/Card";
 import { coachingDesc } from "@/data/coaching-desc";
 import React from "react";
 
 export default function Coaching() {
   return (
-    <main>
-      <header className="mt-44 sm:mt-58 lg:mt-68 mx-10">
+    <main className="mx-5">
+      <header>
         <h1 className="text-3xl sm:text-4xl lg:text-6xl text-center font-bold text-zinc-900 mb-10">
           What Leadership & Customer Experience Coaching is (and What It is not)
         </h1>
@@ -27,6 +28,14 @@ export default function Coaching() {
             image={desc.image}
           />
         ))}
+      </section>
+      <section>
+        <div className="flex justify-center mb-10">
+            <Button 
+                button_name="Explore Our Services"
+                href="/services"
+            />
+        </div>
       </section>
     </main>
   );

@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div className="">
       <motion.div
-        className="mt-44 sm:mt-60 text-zinc-700 text-2xl sm:text-4xl text-center font-bold"
+        className=" text-zinc-700 text-2xl sm:text-4xl text-center font-bold"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -50 }}

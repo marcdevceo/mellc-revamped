@@ -9,7 +9,7 @@ export default function Button({button_name, href}: ButtonProps) {
   return (
     <Link href={href}>
         <button
-        className="bg-zinc-600 text-zinc-200 font-bold py-2 px-4 mt-5 rounded-lg hover:bg-zinc-200 hover:text-zinc-700 transition duration-300 ease-in-out transform"
+        className="bg-yellow-700 text-white font-bold py-4 px-6 mt-5 rounded-xl hover:bg-yellow-200 hover:text-zinc-800 transition duration-300 ease-in-out transform"
         >
         {button_name}
         </button>
