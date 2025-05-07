@@ -29,9 +29,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="bg-yellow-500 text-zinc-900 flex flex-col min-h-screen  font-[family-name:var(--font-geist-sans)]">
+        <div className="bg-yellow-500 text-zinc-900 flex flex-col min-h-screen font-[family-name:var(--font-geist-sans)]">
           <NavBar />
-          {children}
+          <div className="mt-44 sm:mt-60">{children}</div>
         </div>
       </body>
     </html>
