@@ -8,7 +8,7 @@ export default function ServicesPage() {
     <main className="mx-5">
       <header>
         <h1 className="text-3xl sm:text-4xl lg:text-6xl text-center font-bold text-zinc-900 mb-10">
-          How Can We Help You???
+          What We Offer as Your Partner
         </h1>
         <p className="text-lg text-center italic text-zinc-900 mb-10">
           Partnering with individuals and businesses to elevate leadership
@@ -22,18 +22,16 @@ export default function ServicesPage() {
             key={index}
             title={service.title}
             description={service.description}
-            highlight1={service.highlight1}
-            highlight2={service.highlight2}
-            highlight3={service.highlight3}
+            highlight={service.highlight}
           />
         ))}
       </section>
       <section>
         <div className="flex justify-center mb-10">
-            <Button 
-                button_name="Let’s build your Leadership Legacy"
-                href="/contact"
-            />
+          <Button
+            button_name="Let’s build your Leadership Legacy"
+            href="/contact"
+          />
         </div>
       </section>
     </main>
