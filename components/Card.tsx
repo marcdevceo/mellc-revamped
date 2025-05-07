@@ -10,7 +10,7 @@ export default function Card({ title, description, image }: CardProps) {
     return (
         <div className="bg-zinc-200 text-zinc-900 p-5 rounded-xl shadow-xl mb-14 hover:shadow-xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1">
             <h2 className="text-xl text-center font-bold">{title}</h2>
-            <div className="flex justify-center">
+            <div className="flex justify-center mb-5">
                 <Image 
                     src={image}
                     alt={title}
